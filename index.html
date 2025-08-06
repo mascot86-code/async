@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <div class="container">
+    <div class="page-top">
+      <h2 class="page-title">Mountains Bikes</h2>
+      <div id="favorites"></div>
+    </div>
+    <form id="search" class="search">
+      <input type="text" placeholder="Рroduct name search ..." id="search-input"
+        class="search-input">
+      <button type="submit" class="search-btn">Search</button>
+    </form>
+    <div class="top-panel" id="top-panel">
+      <div class="panel" id="panel">
+        <div id="search-result" class="search-result"></div>
+        <div class="show" id="show">
+          <img src="layout.png" alt="Layout" id="layout" class="layout">
+        </div>
+      </div>
+    </div>
+    <div class="products" id="products"></div>
+  </div>
+
+
+  <script src="man.js"></script>
+</body>
+
+</html>

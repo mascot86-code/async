@@ -1,0 +1,276 @@
+{
+  "bikes": [
+    {
+      "id": 1,
+      "brand": "Trek",
+      "img": "bike.webp",
+      "model": "Domane SL 5",
+      "type": "road",
+      "specs": {
+        "frame": "carbon",
+        "brakes": "hydraulic disc",
+        "gears": "2x11"
+      },
+      "price": 2999.99,
+      "oldPrice": 5999.99,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 2,
+      "brand": "Specialized",
+      "img": "bike.webp",
+      "model": "Stumpjumper",
+      "type": "mountain",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "mechanical disc",
+        "gears": "1x12"
+      },
+      "price": 2499.95,
+      "oldPrice": 7999.99,
+      "available": false,
+      "favorite": false
+    },
+    {
+      "id": 3,
+      "brand": "Giant",
+      "img": "bike.webp",
+      "model": "TCR Advanced 2",
+      "type": "road",
+      "specs": {
+        "frame": "composite",
+        "brakes": "rim brakes",
+        "gears": "2x10"
+      },
+      "price": 2200.00,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 4,
+      "brand": "Cannondale",
+      "img": "bike.webp",
+      "model": "Topstone 1",
+      "type": "gravel",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "hydraulic disc",
+        "gears": "2x11"
+      },
+      "price": 1800.00,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 5,
+      "brand": "Bianchi",
+      "img": "bike.webp",
+      "model": "Oltre XR4",
+      "type": "road",
+      "specs": {
+        "frame": "carbon",
+        "brakes": "hydraulic disc",
+        "gears": "2x12"
+      },
+      "price": 6500.00,
+      "available": false,
+      "favorite": false
+    },
+    {
+      "id": 6,
+      "brand": "Santa Cruz",
+      "img": "bike.webp",
+      "model": "Hightower",
+      "type": "mountain",
+      "specs": {
+        "frame": "carbon",
+        "brakes": "hydraulic disc",
+        "gears": "1x12"
+      },
+      "price": 5299.99,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 7,
+      "brand": "Yeti",
+      "img": "bike.webp",
+      "model": "SB130",
+      "type": "mountain",
+      "specs": {
+        "frame": "carbon",
+        "brakes": "hydraulic disc",
+        "gears": "1x12"
+      },
+      "price": 6999.00,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 8,
+      "brand": "Scott",
+      "img": "bike.webp",
+      "model": "Addict 20",
+      "type": "road",
+      "specs": {
+        "frame": "carbon",
+        "brakes": "hydraulic disc",
+        "gears": "2x11"
+      },
+      "price": 4200.00,
+      "available": false,
+      "favorite": false
+    },
+    {
+      "id": 9,
+      "brand": "Canyon",
+      "img": "bike.webp",
+      "model": "Grail AL",
+      "type": "gravel",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "mechanical disc",
+        "gears": "2x10"
+      },
+      "price": 1499.99,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 10,
+      "brand": "Orbea",
+      "img": "bike.webp",
+      "model": "Gain M20",
+      "type": "electric",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "hydraulic disc",
+        "gears": "1x11"
+      },
+      "price": 4499.00,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 10,
+      "brand": "Orbea",
+      "img": "bike.webp",
+      "model": "Gain M23",
+      "type": "electric",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "hydraulic disc",
+        "gears": "1x11"
+      },
+      "price": 14499.00,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 11,
+      "brand": "Orbea",
+      "img": "bike.webp",
+      "model": "Gain M25",
+      "type": "electric",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "hydraulic disc",
+        "gears": "1x11"
+      },
+      "price": 14499.00,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 12,
+      "brand": "Orbea",
+      "img": "bike.webp",
+      "model": "Gain M28",
+      "type": "electric",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "hydraulic disc",
+        "gears": "1x11"
+      },
+      "price": 14499.00,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 13,
+      "brand": "Orbea",
+      "img": "bike.webp",
+      "model": "Gain M29",
+      "type": "electric",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "hydraulic disc",
+        "gears": "1x11"
+      },
+      "price": 15499.00,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 14,
+      "brand": "Orbea",
+      "img": "bike.webp",
+      "model": "Gain M19",
+      "type": "electric",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "hydraulic disc",
+        "gears": "1x11"
+      },
+      "price": 16499.00,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 15,
+      "brand": "Orbea",
+      "img": "bike.webp",
+      "model": "Gain M12",
+      "type": "electric",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "hydraulic disc",
+        "gears": "1x11"
+      },
+      "price": 17499.00,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 16,
+      "brand": "Orbea",
+      "img": "bike.webp",
+      "model": "Gain M12",
+      "type": "electric",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "hydraulic disc",
+        "gears": "1x11"
+      },
+      "price": 18499.00,
+      "available": true,
+      "favorite": false
+    },
+    {
+      "id": 17,
+      "brand": "Orbea",
+      "img": "bike.webp",
+      "model": "Gain M10",
+      "type": "electric",
+      "specs": {
+        "frame": "aluminum",
+        "brakes": "hydraulic disc",
+        "gears": "1x11"
+      },
+      "price": 18499.00,
+      "available": true,
+      "favorite": false
+    }
+  ]
+}

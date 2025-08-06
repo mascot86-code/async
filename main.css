@@ -1,0 +1,287 @@
+* {
+  font-family: "TikTok Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.page-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+  color: #f44a06;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+.product:hover {
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: all .7s ease;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.product-prices {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.product-old-price {
+  text-decoration: line-through;
+  color: #f44a06;
+}
+
+.product {
+  position: relative;
+}
+
+.sale-percent {
+  position: absolute;
+  right: 5%;
+  background-color: #f44a06;
+  padding: 5px;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  padding: 20px;
+  border: 2px solid #f2f2f2;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.search-input::placeholder {
+  color: #919191;
+  font-weight: 500;
+}
+
+.search-input:focus {
+  outline: 2px solid #19d75f;
+}
+
+.search-btn {
+  width: 10%;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: opacity 0.3s ease;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+.product {
+  border: 2px solid #f2f2f2;
+  border-radius: 6px;
+  padding: 20px;
+  width: 100%;
+}
+
+.product-image img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.product ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  font-weight: 600;
+}
+
+.product-specs li {
+  color: #919191;
+}
+
+.product-specs li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.product-avalible {
+  margin-bottom: 15px;
+}
+
+.product-avalible.avalible {
+  color: #19d75f;
+}
+
+.product-avalible.not-avalible {
+  color: #f44a06;
+}
+
+.founded {
+  margin-bottom: 20px;
+  color: #8d8d8d;
+}
+
+.panel {
+  border-bottom: 2px solid #f2f2f2;
+  margin-bottom: 20px;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 3px dotted #000000;
+  border-style: solid solid dotted dotted;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  animation: rotation 2s linear infinite;
+  position: absolute;
+}
+
+.loader::after {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px dotted #FF3D00;
+  border-style: solid solid dotted;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  animation: rotationBack 1s linear infinite;
+  transform-origin: center center;
+}
+
+.search-result {
+  margin-bottom: 20px;
+}
+
+.not-found {
+  grid-column: 2/3;
+}
+
+.panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products.custom-grid {
+  grid-template-columns: 1fr;
+}
+
+.products.custom-grid .product-body {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+.products.custom-grid .product:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.layout:hover {
+  cursor: pointer;
+  opacity: .8;
+  transition: opacity .7s ease-in-out;
+}
+
+.layout.active {
+  opacity: .4;
+}
+
+.product-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.add-favorite {
+  cursor: pointer;
+}
+
+.add-favorite.added {
+  color: #f44a06;
+}
+
+.page-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product.in-favorite {
+  border-color: #f44a06;
+}
+
+.add-favorite {
+  position: relative;
+  padding-bottom: 3px;
+}
+
+.add-favorite:hover {
+  color: #f44a06;
+}
+
+.add-favorite::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  background-color: #f44a06;
+  height: 2px;
+}
+
+.add-favorite:hover::before {
+  width: 100%;
+  transition: all .7s ease-in-out;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
