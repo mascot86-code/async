@@ -124,6 +124,8 @@ async function init() {
     const target = event.target
     const bikeId = target.dataset.id
 
+    if (!target.classList.contains('add-favorite')) return
+
     if (target.classList.contains('add-favorite')) {
       const bike = bikeList.find(bike => bike.id == bikeId)
       bike.favorite = !bike.favorite
